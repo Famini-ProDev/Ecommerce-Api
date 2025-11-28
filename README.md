@@ -5,35 +5,29 @@ Includes authentication, product management, categories, cart system, orders, an
 
 ---
 
-## 🚀 Features
+##  Features
 
-### 🟦 Authentication
+###  Authentication
 - Register / Login
 - JWT Access & Refresh Tokens
 - Logout (token invalidation)
 - Protected routes
 - Admin role support
 
-### 🟩 Products & Categories
+###  Products & Categories
 - Full CRUD for products
 - Full CRUD for categories
 - Filtering + search + pagination
 
-### 🟧 Cart System
-- Add to cart
-- Update quantity
-- Remove item
-- Clear cart
-- Auto-cart creation per user
 
-### 🟥 Orders
+###  Orders
 - Create orders from cart
 - Order history for users
 - Admin access to all orders
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 src/
@@ -59,7 +53,7 @@ REFRESH_TOKEN_SECRET=your_refresh_secret
 
 ---
 
-## 📌 API Endpoints
+##  API Endpoints
 
 ### **Users — `/api/users`**
 | Method | Route | Description |
@@ -118,7 +112,7 @@ REFRESH_TOKEN_SECRET=your_refresh_secret
 
 ---
 
-## 🧪 Postman Collection
+##  Postman Collection
 
 ```
 postman/Ecommerce-API.postman_collection.json
@@ -126,14 +120,9 @@ postman/Ecommerce-API.postman_collection.json
 
 ---
 
-## ▶️ Run Project
+##  Run Project
 
 ```
 npm install
 npm run dev
 ```
-
----
-
-## 📜 License
-MIT
