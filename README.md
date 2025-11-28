@@ -42,7 +42,7 @@ src/
 
 ---
 
-## 🔑 Environment Variables
+## Environment Variables
 
 ```
 PORT=5000
